@@ -53,7 +53,7 @@ let n = 0;
 let step = () => {
   setTimeout(() => {
     // 如果是回车，就不照搬
-    // 如果不是回车就照搬
+    // 如果不是回车就照搬`
     if (string[n] === "\n") {
       string2 += "<br>";
     } else if (string[n] === " ") {
